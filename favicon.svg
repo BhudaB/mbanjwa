@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&amp;display=swap');
+    .letter {
+      font-family: 'Cinzel', serif;
+      font-size: 75px;
+      font-weight: 700;
+      fill: #000000;
+    }
+  </style>
+  <rect width="100" height="100" fill="#ffffff" rx="20"/>
+  <text x="50" y="74" class="letter" text-anchor="middle">M</text>
+</svg>

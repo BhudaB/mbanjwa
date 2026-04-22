@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBANJWA | Coming Soon</title>
+    <meta name="description" content="MBANJWA - Premium brand coming soon.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-wrapper">
+        <div class="granite-texture"></div>
+        <div class="vignette-overlay"></div>
+    </div>
+    
+    <main class="content">
+        <div class="text-wrapper">
+            <h1 class="brand-name">MBANJWA</h1>
+            <div class="divider"></div>
+            <p class="subtitle">COMING SOON</p>
+        </div>
+    </main>
+
+    <!-- Subtle lighting effect following the mouse for a premium feel -->
+    <div class="cursor-glow"></div>
+
+    <script>
+        // Subtle mouse tracking glow effect for a premium dynamic feel
+        const glow = document.querySelector('.cursor-glow');
+        document.addEventListener('mousemove', (e) => {
+            requestAnimationFrame(() => {
+                glow.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+            });
+        });
+    </script>
+</body>
+</html>
